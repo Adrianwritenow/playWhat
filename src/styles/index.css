@@ -1,0 +1,140 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+body {
+  font-family: 'Roboto';
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: black;
+}
+
+dl {
+  font-family: 'Roboto';
+  width: 31%;
+  text-align: left;
+  padding: 20px;
+  border: 1px solid #fb00ff;
+  margin-right: 1px;
+  border-radius: 5%;
+  box-shadow: 10px 10px 5px #888888;
+  background-color:#F74162;
+
+}
+
+
+
+dt {
+  float: left;
+  margin-right: 10%;
+  max-width: 40%;
+  font-weight: bold;
+  }
+
+  dd {
+    color: grey;
+    margin-left: 10%;
+    margin-bottom: .5em;
+    word-wrap: break-word;
+    color:#F7F6FA;
+;
+
+
+
+
+  }
+
+  .dl-horizontal > dd:after {
+   display: table;
+   content: "";
+   clear: both;
+ }
+
+ .cardGroup{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+ }
+
+ .btn{
+   margin-bottom: 10px;
+ }
+
+ .wrapper{
+   border: 1px solid black;
+   border-radius: 1%;
+   padding: 25px;
+   background-color: #17BEBB;
+   margin-top: -40px;
+ }
+
+ input{
+   font-family: 'Roboto';
+
+ }
+
+ .navBar{
+   font-family: 'Roboto';
+
+ }
+.btn-primary{
+  font-family: 'Roboto';
+  background-color: #F74162;
+
+
+}
+
+
+
+
+.navBar {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+}
+
+.play {
+  font-family: 'Pacifico';
+  color: #FB4264;
+  font-size: 9vw;
+  line-height: 9vw;
+  text-shadow: 0 0 3vw #F40A35;
+}
+
+.what {
+  font-family: 'Pacifico';
+  color: #FB4264;
+  font-size: 9vw;
+  line-height: 9vw;
+  text-shadow: 0 0 3vw #F40A35;
+}
+
+.play {
+  animation: neon 1s ease infinite;
+  -moz-animation: neon 1s ease infinite;
+  -webkit-animation: neon 1s ease infinite;
+}
+
+
+.what {
+  animation: flux 2s linear infinite;
+  -moz-animation: flux 2s linear infinite;
+  -webkit-animation: flux 2s linear infinite;
+  -o-animation: flux 2s linear infinite;
+}
+
+.btn-primary:hover {
+    color: #F40A35;
+    background-color: #00003E;
+    border-color: #01549b;
+}
+
+.App{
+  text-align: -webkit-center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+flex-wrap: wrap;
+}
